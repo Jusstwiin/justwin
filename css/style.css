@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, skyblue, #d2e9f7);
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #4a90e2;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 5px solid #2f6c9e;
+}
+
+.yay {
+  text-align: center;
+}
+
+nav a {
+  color: whitesmoke;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 5.3s ease;
+  border-bottom: 3px solid darkblue ;
+}
+
+nav a:hover {
+  transform: scale(2.1);
+}
+
+nav img.justin {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.section {
+  background-color: white;
+  border: 2px solid #357ABD; 
+  border-radius: 12px; 
+  padding: 40px 20px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 1.50s ease;
+  background: linear-gradient(145deg, #ffffff, #f2f9fc); 
+}
+
+.section:hover {
+  transform: scale(1.02);
+}
+
+.hero-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.earl {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px darkslategray;
+}
+
+.ay, .gojo {
+  height: 150px;
+  border-radius: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  border: 3px solid deepskyblue;
+}
+
+.ay:hover, .earl:hover, .justin:hover, .jus:hover, .gojo:hover {
+  transform: scale(1.50);
+  transition: transform 1.50s ease;
+}
+
+.boo, figcaption {
+  font-weight: bold;
+  text-align: center;
+}
+
+.socmed figure {
+  margin: 0 15px;
+}
+
+.sm {
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease,
+  box-shadow 0.3s ease;
+  padding: 10px;
+  border: 2px solid #357ABD;
+}
+
+.sm:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px ; 
+}
+
+.gojo {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.footer {
+  background: #4a90e2;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+  transition: background 0.3s ease;
+  border-top: 5px solid #2f6c9e; 
+  border-bottom: 5px solid #2f6c9e;
+}
+
+footer:hover {
+  background: #285A8D;
+}
+
+hr {
+  margin: 40px auto;
+  width: 80%;
+  border: 1px solid #357ABD;
+}
+
+h1, h2 {
+  text-shadow: 1px 1px 3px white;
+  color: mediumblue;
+  font-family: 'Verdana', sans-serif;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  
+}
+
+section h1 {
+  color: #285A8D;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px){
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
